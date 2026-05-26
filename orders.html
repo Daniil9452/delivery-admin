@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заказы | Админ-панель доставки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Заказы</h1>
+        <button id="logoutBtn" class="logout-btn">Выйти</button>
+    </div>
+    
+    <div class="filters">
+        <select id="statusFilter">
+            <option value="all">Все статусы</option>
+            <option value="Новый">Новый</option>
+            <option value="В пути">В пути</option>
+            <option value="Доставлен">Доставлен</option>
+            <option value="Проблема">Проблема</option>
+        </select>
+    </div>
+    
+    <div id="ordersList" class="orders-list">
+        <div class="loading">Загрузка...</div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
