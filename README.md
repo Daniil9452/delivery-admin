@@ -35,17 +35,5 @@
 2. Откройте index.html в браузере
 3. Логин: admin, пароль: 123
 
-## Демо
 
-https://ТВОЙ_ЛОГИН.github.io/delivery-admin/
-
-## Структура проекта
-
-delivery-admin/
-├── index.html
-├── orders.html
-├── order-detail.html
-├── style.css
-├── script.js
-└── README.md
 
