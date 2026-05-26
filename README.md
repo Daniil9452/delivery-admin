@@ -32,22 +32,13 @@
 2. Открой `index.html` в браузере
 3. Логин: `admin`, пароль: `123`
 
-## Демо (GitHub Pages)
-
-https://ТВОЙ_ЛОГИН.github.io/delivery-admin/
-
-## Скриншоты
-
-### Страница входа
-![Вход](screenshots/login.png)
-
-### Список заказов
-![Список заказов](screenshots/orders.png)
-
-### Фильтрация по статусу
-![Фильтр](screenshots/filter.png)
-
-### Карточка заказа
-![Карточка](screenshots/detail.png)
 
 ## Структура проекта
+
+delivery-admin/
+├── index.html # страница входа
+├── orders.html # список заказов
+├── order-detail.html # карточка заказа
+├── style.css # стили
+├── script.js # клиентская логика
+└── README.md # описание
